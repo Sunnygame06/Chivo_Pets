@@ -45,9 +45,7 @@ function RecoveryPassword() {
   return (
     <div className="container">
       <Card>
-        <form
-          onSubmit={handleRecovery}
-        >
+        <form onSubmit={handleRecovery}>
           <h2>
             Recuperar contraseña
           </h2>
@@ -58,8 +56,7 @@ function RecoveryPassword() {
             value={email}
             onChange={(e) =>
               setEmail(e.target.value)
-            }
-          />
+            } />
 
           <Button
             type="submit"
@@ -72,3 +69,4 @@ function RecoveryPassword() {
 }
 
 export default RecoveryPassword;
+

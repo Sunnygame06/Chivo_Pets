@@ -111,7 +111,6 @@ function Register() {
         </form>
       </Card>
     </div>
-  );
-}
+  );}
 
 export default Register;

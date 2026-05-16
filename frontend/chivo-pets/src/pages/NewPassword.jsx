@@ -81,9 +81,7 @@ function NewPassword() {
           <Input
             type="password"
             placeholder="Confirmar contraseña"
-            value={
-              confirmPassword
-            }
+            value={confirmPassword}
             onChange={(e) =>
               setConfirmPassword(
                 e.target.value
